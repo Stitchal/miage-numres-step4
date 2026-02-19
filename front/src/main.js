@@ -2,13 +2,13 @@ import { initQuizz } from './quizz.js';
 import './style.css';
 
 document.querySelector('#app').innerHTML = `
-        <div class="header" style="cursor:pointer;">
+        <header class="header" style="cursor:pointer;">
           <h1>My Quizz</h1>
           Pour accéder a la page /about <a href="about/" style="text-decoration: none;">click ici</a>
-        </div>
+        </header>
 
 
-        <div class="topnav">
+        <section class="topnav">
           <a href="#" class="fa fa-facebook" aria-label="Suivez-nous sur Facebook" target="_blank" rel="noopener"></a>
           <a href="#" class="fa fa-twitter" aria-label="Suivez-nous sur Twitter" target="_blank" rel="noopener"></a>
           <a href="#" class="fa fa-google" aria-label="Suivez-nous sur Google" target="_blank" rel="noopener"></a>
@@ -29,9 +29,9 @@ document.querySelector('#app').innerHTML = `
           <a href="#" class="fa fa-yahoo" aria-label="Suivez-nous sur Yahoo" target="_blank" rel="noopener"></a>
           <a href="#" class="fa fa-reddit" aria-label="Rejoignez-nous sur Reddit" target="_blank" rel="noopener"></a>
           <a href="#" class="fa fa-rss" aria-label="S'abonner au flux RSS" target="_blank" rel="noopener"></a>
-        </div>
+        </section>
 
-        <div class="row">
+        <section class="row">
           <div class="leftcolumn">
             <div class="card">
               <h1>Nom étudiant</h1>
@@ -47,11 +47,11 @@ document.querySelector('#app').innerHTML = `
             <div class="card">
               <img src="/question.png" width="500" height="600">
             </div>
-        </div>
+        </section>
 
-        <div class="footer">
+        <footer class="footer">
           <h2>@2024</h2>
-        </div>
+        </footer>
 `
 
 initQuizz();

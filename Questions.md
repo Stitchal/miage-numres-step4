@@ -31,10 +31,10 @@ Screen:
 Réponse: il faut utiliser ARIA seulement si HTML5 ne propose pas de balise équivalente
 
 # Q8: Ajouter le screen de votre score Lighthouse
-Screen:
+Screen: ![alt text](image-2.png)
 
 # Q9: Pourquoi le score de lighthouse n'a pas augmenté d'après vous ?
-Réponse:
+Réponse: car le header, section et footers ne sont pas les enfants directs du body mais d'une div à l'intérieur du body
 
 # Q10: Quel est la valeur du rapport de contraste actuel :
 Réponse:
