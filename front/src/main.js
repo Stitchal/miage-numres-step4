@@ -10,8 +10,25 @@ document.querySelector('#app').innerHTML = `
               </a>
         </header>
 
+        <section class="row">
+          <div class="leftcolumn">
+            <div class="card">
+              <h1>Nom étudiant</h1>
+              <h5>description</h5>
+              <div id="quiz">
+                <h2>A TOI DE JOUER</h2>
+                <div id="question"></div>
+                <div id="proposals"></div>
+              </div>
+            </div>
+          </div>
+          <div class="rightcolumn">
+            <div class="card">
+              <img src="/question.png" width="500" height="600">
+            </div>
+        </section>
 
-        <section class="topnav">
+                <section class="topnav">
           <a href="#" class="fa fa-facebook" aria-label="Suivez-nous sur Facebook" target="_blank" rel="noopener"></a>
           <a href="#" class="fa fa-twitter" aria-label="Suivez-nous sur Twitter" target="_blank" rel="noopener"></a>
           <a href="#" class="fa fa-google" aria-label="Suivez-nous sur Google" target="_blank" rel="noopener"></a>
@@ -34,23 +51,6 @@ document.querySelector('#app').innerHTML = `
           <a href="#" class="fa fa-rss" aria-label="S'abonner au flux RSS" target="_blank" rel="noopener"></a>
         </section>
 
-        <section class="row">
-          <div class="leftcolumn">
-            <div class="card">
-              <h1>Nom étudiant</h1>
-              <h5>description</h5>
-              <div id="quiz">
-                <h2>A TOI DE JOUER</h2>
-                <div id="question"></div>
-                <div id="proposals"></div>
-              </div>
-            </div>
-          </div>
-          <div class="rightcolumn">
-            <div class="card">
-              <img src="/question.png" width="500" height="600">
-            </div>
-        </section>
 
         <footer class="footer">
           <h2>@2024</h2>

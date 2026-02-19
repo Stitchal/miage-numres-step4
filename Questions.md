@@ -59,13 +59,13 @@ Screen:
 ![alt text](image-4.png)
 
 # Q17:  Proposition 1
-Description:
-Nb d'actions gagnée : 
+Description: déplacement des réseaux sociaux en bas de la page
+Nb d'actions gagnée : 20
 
 # Q18:  Proposition 2
-Description:
-Nb d'actions gagnée : 
+Description: Auto-focus sur la question suivante ou le premier bouton
+Nb d'actions gagnée : 3
 
 # Q19:  Proposition 3
-Description:
-Nb d'actions gagnée : 
+Description: Utilisation de zones "Aria-live" pour le score final
+Nb d'actions gagnée : 1
