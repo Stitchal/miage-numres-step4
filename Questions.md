@@ -13,12 +13,22 @@ Réponse: 30
 
 # Q5: Donner 3 roles ARIA et 3 propriété ARIA
 Réponse:
+roles ARIA :
+- button
+- navigation
+- alert
+
+3 propriété ARIA
+- aria-expanded="true/false"
+- aria-haspopup="true"
+- aria-hidden="true"
 
 # Q6: Ajouter le screen de votre score Lighthouse
 Screen:
+![alt text](image-1.png)
 
 # Q7: L'une des best practice de l'ARIA est "ne pas utiliser l'ARIA" pouvez nous expliquer pourquoi d'après vous ?
-Réponse:
+Réponse: il faut utiliser ARIA seulement si HTML5 ne propose pas de balise équivalente
 
 # Q8: Ajouter le screen de votre score Lighthouse
 Screen:
